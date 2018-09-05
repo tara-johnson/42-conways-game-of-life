@@ -20,6 +20,8 @@ making methods that manipulate the data. Your engine should
 (highly-recommended) have the following properties:
 
 * Contains a 2D array of boolean values
+* Has a method `draw` that accepts a `Canvas` and draws the state of
+  the 2D array onto the canvas.
 * Has a method `tick` that progresses from one state to the next
   * Create a new array the same size as your original array that
     counts how many neighbors each cell has
